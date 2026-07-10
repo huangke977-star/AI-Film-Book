@@ -5,6 +5,8 @@
 /build/
 /exports/
 /.analysis/
+/.worktrees
+/.worktrees/
 /tmp/
 *.log
 *.tmp
