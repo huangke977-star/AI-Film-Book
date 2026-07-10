@@ -4,6 +4,7 @@
 /dist/
 /build/
 /exports/
+/.analysis/
 /tmp/
 *.log
 *.tmp
@@ -12,4 +13,3 @@
 *.rar
 Thumbs.db
 .DS_Store
-
