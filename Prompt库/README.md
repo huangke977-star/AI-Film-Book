@@ -22,6 +22,14 @@
 - 人物一致性检查。
 - 参考图生成。
 
+## AI 绘图 Prompt
+
+- 概念图 prompt。
+- 角色参考图 prompt。
+- 场景参考图 prompt。
+- 封面图 prompt。
+- 图生视频参考图 prompt。
+
 ## 标准结构
 
 每条 Prompt 建议包含：
