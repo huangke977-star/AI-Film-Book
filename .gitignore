@@ -1,0 +1,15 @@
+/.obsidian/
+/.vscode/
+/.idea/
+/dist/
+/build/
+/exports/
+/tmp/
+*.log
+*.tmp
+*.zip
+*.7z
+*.rar
+Thumbs.db
+.DS_Store
+
