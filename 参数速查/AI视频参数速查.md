@@ -40,3 +40,17 @@
 cartoon, anime, plastic skin, distorted hands, extra fingers, deformed face, unreadable text, watermark, logo, low quality, over sharpened
 ```
 
+## LibTV 或同类工具生成前检查
+
+| 项目 | 检查问题 |
+| --- | --- |
+| ratio | 是否明确 9:16、16:9 或其他画幅 |
+| duration | 是否明确单镜头时长 |
+| input type | 是文生视频、图生视频，还是口播素材 |
+| reference image | 是否需要参考图 |
+| negative prompt | 是否写清避免项 |
+| output folder | 下载后是否放入 `outputs/raw/` |
+| cost note | 是否准备记录次数、单价和结果 |
+
+生成前先检查这张表，可以减少无效重试。
+

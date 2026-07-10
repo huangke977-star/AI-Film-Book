@@ -57,6 +57,20 @@ Codex 生成 prompts/shot_01.md
 - 知道每次生成的大致成本。
 - 有清晰的失败重试策略。
 
+## 第 05 卷实践配置
+
+下面是用于第 05 卷练习的示例字段名，不代表 LibTV 当前平台一定使用这些精确字段。真实配置应按实际平台文档或页面要求调整。
+
+```env
+LIBTV_API_KEY=
+LIBTV_OUTPUT_DIR=outputs/raw
+DEFAULT_VIDEO_RATIO=9:16
+DEFAULT_VIDEO_DURATION=5
+DEFAULT_GENERATION_MODE=manual
+```
+
+新手建议先把 `DEFAULT_GENERATION_MODE` 理解为 `manual`：Codex 生成提示词，人工复制到平台，结果下载后再回到项目目录复盘。
+
 ## 3. 本地配置文件建议
 
 可以创建本地 `.env`，但不要提交：
